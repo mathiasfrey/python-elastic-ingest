@@ -1,0 +1,1 @@
+[{"model": "analytics.channel", "pk": 1, "fields": {"name": "Non-Digital"}}, {"model": "analytics.channel", "pk": 2, "fields": {"name": "Web"}}, {"model": "analytics.channel", "pk": 3, "fields": {"name": "App"}}, {"model": "analytics.channel", "pk": 4, "fields": {"name": "Portal"}}, {"model": "analytics.channel", "pk": 5, "fields": {"name": "Other Digital"}}]

@@ -25,8 +25,12 @@ pip install -r requirements.txt
 ```
 
 ```
+./manage.py migrate
 ./manage.py loaddata fixtures/user.json
-./manage.py loaddate fixtures/sales.json
+./manage.py loaddata fixtures/sales.json
+./manage.py loaddata fixtures/channels.json
+./manage.py loaddata fixtures/products.json
+./manage.py loaddata fixtures/entities.json
 ```
 
 Superuser `root` with password `root`.
