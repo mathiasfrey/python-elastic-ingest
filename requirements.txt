@@ -1,3 +1,5 @@
 django
 elasticsearch
 django-elasticsearch-dsl
+djangorestframework
+requests

@@ -14,7 +14,6 @@ curl -X GET "localhost:9200/_cat/nodes?v&pretty"
 
 http://localhost:5601
 
-Setup taken from https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html
 
 ### Django
 
@@ -43,8 +42,17 @@ python manage.py runserver
 
 http://localhost:8000
 
+```
+python make-salesperformance.py
+```
 
 ## Dev
 ```
 python manage.py search_index --rebuild
 ```
+
+# References
+
+A lot of good ideas stolen from Nik Tomazic' amazing tutorial https://testdriven.io/blog/django-drf-elasticsearch/
+
+Elasticsearch setup taken from https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html
